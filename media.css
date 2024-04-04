@@ -1,0 +1,109 @@
+@media screen and (max-width: 800px){
+    .header_top .navbar_li{
+        display: none;
+    }
+    .header_center_left_column h1{
+        font-size: 9.5vw;
+        line-height: 10vw;
+    }
+    .selling_cards{
+        flex-wrap: wrap;
+    }
+    
+    .slider_content{
+        flex-direction: column-reverse;
+    }
+    .slider_right{
+        flex: 1 ;
+    }
+
+    .slider_left_card{
+        width: 316px;
+    }
+}
+@media screen and (max-width: 426px){
+    .btn_black{
+        padding: 10px 15px;
+    }
+   
+    .header_top .btn_black{
+    display: none;
+   }
+    .header_center_columns{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0 15px;
+    }
+
+    .header_center_left_column, .header_center_right_column{
+        width: 100%;
+        height: 100%;
+    }
+    .header_center_left_column h1 img{
+        display: none;
+    }
+    .header_center_left_column p{
+        margin: 30px 0;
+        font-size: 16px;
+    }
+    .right_column_raiting {
+        padding: 10px 14px;
+        max-width: 200px;
+    }
+    .right_column_raiting p{
+        font-size: 1rem;
+        margin: 10px 0;
+    }
+
+    .explore_cards{
+        flex-direction: column;
+    }
+
+    .explore_card{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .favoriteOrder_columns{
+        flex-direction: column-reverse;
+    }
+    .favoriteOrder_columns_left,
+    .favoriteOrder_columns_right{
+        width: 80%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center
+    }
+
+    .selling_cards{
+        flex-direction: column;
+    }
+    .selling_card{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .instant_content{
+        flex-direction: column;
+    }
+    .instant_column_left,
+    .instant_column_right{
+        width: 90%;
+    }
+    .instant_column_right{
+        height: 548px;
+    }
+
+    .slider_content{
+        flex-direction: column-reverse;
+    }
+
+
+    .footer_content{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
+
